@@ -1,0 +1,17 @@
+.parent {
+  padding: 70px 0;
+  // background-color: #080d11;
+  @media all and (max-width:992px){
+    margin: 0 !important;
+    padding: 50px 0;
+  }
+}
+.img {
+  @media all and (max-width:992px){
+    margin: 0 auto;
+  }
+  width: 170px;
+  height: 150px;
+  margin: 10px 5px;
+  object-fit: contain;
+}

@@ -1,0 +1,43 @@
+.jumbotronPostsDate {
+  color: #868686;
+}
+
+.jumbotronPostsImage {
+  img {
+    width: 100%;
+    height: 194px;
+    // object-fit: contain;
+  }
+}
+
+.jumbotronPostsAbout {
+  p {
+    padding: 0;
+    line-height: 1.3em;
+    font-size: 16px;
+  }
+}
+
+// Link styling!!!
+
+.link,
+.link:hover,
+.link:active,
+.link:focus,
+.link:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link:hover p b {
+  text-decoration: underline;
+}
+
+.link img {
+  transition-duration: 500ms;
+  transition-delay: 10ms;
+}
+
+.link:hover img {
+  transform: scale(1.02);
+}

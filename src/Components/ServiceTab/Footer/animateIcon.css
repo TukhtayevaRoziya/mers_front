@@ -1,0 +1,12 @@
+.social_link {
+  color: #fff;
+  font-size: 25px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.social_link svg {
+  margin-right: 8px;
+}
+.social_link:hover {
+  margin-top: -5px;
+}

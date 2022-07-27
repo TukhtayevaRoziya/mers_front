@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.App {
+  scroll-behavior: smooth;
+  background-color: #0c1218;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  overflow-x: hidden;
+}
+.colorTitleImportant {
+  color: #fff !important;
+}
+
+.Navbar_menu_items__0mFgW .active {
+  border-bottom: 3px solid #fff;
+  color: inherit;
+}
+.backToTopButton {
+  animation: LightBackItem 1s ease infinite;
+}
+@keyframes LightBackItem {
+  from {
+    bottom: 50px;
+  }
+  to {
+    bottom: 60px;
+  }
+}

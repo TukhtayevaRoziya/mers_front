@@ -1,0 +1,15 @@
+.wrapper_partners {
+  display: flex;
+  justify-content: space-around !important;
+  .col {
+    &:hover {
+      img {
+        transform: rotate(10deg);
+      }
+    }
+    img {
+      width: 100px;
+      height: 70px;
+    }
+  }
+}

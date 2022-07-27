@@ -1,0 +1,118 @@
+.QuickIcons {
+  @media all and (max-width: 992px) {
+    display: none;
+  }
+  .wrapper {
+    // position: fixed;
+    // top: 45%;
+    // right: 0px;
+    // z-index: 1000;
+    // width: 180px;
+    // &:hover {
+    //   p {
+    //     margin-right: 5px;
+    //   }
+    // }
+
+    .shop {
+      &:hover {
+        margin-right: 0;
+      }
+      right: 0;
+      margin-right: -142px;
+      position: fixed;
+      top: 44%;
+      z-index: 1000;
+      transition: 0.4s ease;
+      width: 180px;
+      p {
+        cursor: pointer;
+        width: 100%;
+        transition: 0.3s;
+        display: flex;
+        // margin-right: -135px;
+        align-items: center;
+        background-color: #131e29;
+        margin-bottom: 0;
+        padding: 8px;
+        border: 1px solid #fff;
+        a {
+          text-decoration: none;
+          color: #fff;
+        }
+        svg {
+          margin-right: 10px;
+          font-size: 22px;
+        }
+      }
+      right: 0;
+    }
+    .services {
+      &:hover {
+        margin-right: 0;
+      }
+      right: 0;
+      margin-right: -142px;
+      position: fixed;
+      top: 51%;
+      z-index: 1000;
+      transition: 0.4s ease;
+      width: 180px;
+      p {
+        cursor: pointer;
+        width: 100%;
+        transition: 0.3s;
+        display: flex;
+        // margin-right: -135px;
+        align-items: center;
+        background-color: #131e29;
+        margin-bottom: 0;
+        padding: 8px;
+        border: 1px solid #fff;
+        a {
+          text-decoration: none;
+          color: #fff;
+        }
+        svg {
+          margin-right: 10px;
+          font-size: 22px;
+        }
+      }
+    }
+    .socials {
+      &:hover {
+        margin-right: 0;
+      }
+      right: 0;
+      margin-right: -142px;
+      position: fixed;
+      top: 58%;
+      z-index: 1000;
+      transition: 0.4s ease;
+      width: 180px;
+      p {
+        cursor: pointer;
+        width: 100%;
+        transition: 0.3s;
+        display: flex;
+        // margin-right: -135px;
+        align-items: center;
+        background-color: #131e29;
+        margin-bottom: 0;
+        padding: 8px;
+        border: 1px solid #fff;
+        a {
+          text-decoration: none;
+          color: #fff;
+        }
+        svg {
+          margin-right: 10px;
+          font-size: 22px;
+        }
+      }
+      svg:hover {
+        color: rgb(39, 90, 138);
+      }
+    }
+  }
+}

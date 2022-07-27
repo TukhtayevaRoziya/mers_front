@@ -1,0 +1,106 @@
+.someinfo {
+  @media all and (max-width: 692.9px) {
+    padding: 0 10px !important;
+    .wrapper {
+      display: block !important;
+      .col {
+        margin: 25px auto !important;
+        .information {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 634px) and (max-width: 1010.9px) {
+    padding: 10px 0;
+  }
+
+  transition: 0.5s all linear;
+  padding: 50px 0;
+  .wrapper {
+    display: flex;
+    justify-content: space-around;
+    @media (min-width: 633.9px) and (max-width: 992px) {
+      flex-wrap: wrap;
+      display: flex !important;
+    }
+    .col {
+      &:hover {
+        .information {
+          background: linear-gradient(
+            118.71deg,
+            rgba(48, 108, 168, 0) 79.43%,
+            #1e77cf
+          );
+          img {
+            transform: rotate(15deg);
+          }
+        }
+      }
+      @media (min-width: 634px) and (max-width: 1010.9px) {
+        margin: 10px;
+      }
+      border-width: 1px;
+      border-image-source: linear-gradient(
+        118.57deg,
+        #1e77cf 0%,
+        rgba(48, 108, 168, 0) 79.43%
+      );
+
+      margin: 25px;
+      color: #062d53 !important;
+
+      @media (min-width: 633.9px) and (max-width: 992.9px) {
+        width: 50%;
+      }
+
+      .information {
+        border-top: 2px solid #074888;
+        border-left: 2px solid #074888;
+        border-bottom: 1px solid #0747884b;
+        border-right: 1px solid #0747882d;
+        display: flex;
+        align-items: center;
+        width: 90%;
+        transition: 15s ease;
+        height: 148px;
+        background: linear-gradient(
+          130deg,
+          rgba(49, 110, 170, 0.527),
+          rgba(48, 108, 168, 0)
+        );
+        @media (min-width: 634px) and (max-width: 1010.9px) {
+          width: 100%;
+          height: auto;
+          padding: 1rem .5rem;
+        }
+        img {
+          width: 80px;
+          height: 70px;
+          margin-right: 10px;
+          transition: 0.3s ease;
+          @media (min-width: 634px) and (max-width: 1010.9px) {
+            width: 50px;
+            object-fit: cover;
+            height: auto;
+            margin-left: .5rem;
+          }
+        }
+        h2 {
+          color: #fff;
+          font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+          @media (min-width: 660px) and (max-width: 1010.9px) {
+            font-size: 12px;
+          }
+        }
+        p {
+          color: rgba(188, 188, 188, 1);
+          @media (min-width: 660px) and (max-width: 1010.9px) {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+}

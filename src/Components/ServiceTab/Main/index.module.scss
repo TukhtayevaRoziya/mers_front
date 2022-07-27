@@ -1,0 +1,58 @@
+.parent {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
+
+.main__slider_fix {
+  margin: 75px 0;
+}
+.max_h1 {
+  max-width: 700px;
+  text-align: left;
+}
+.max_h3 {
+  max-width: 700px;
+  text-align: left;
+}
+.my_code {
+  display: flex !important;
+  height: 100vh;
+  align-items: center;
+}
+@media all and (max-width: 992px) {
+  .parent {
+    height: 100vh;
+  }
+  .my_code {
+    height: 70vh;
+  }
+}
+.tabClicker {
+  @media all and (max-width: 992px) {
+    justify-content: start !important;
+  }
+  margin: auto 0;
+  display: flex;
+  justify-content: flex-end;
+  .navLinkButton {
+    color: #fff;
+    font-size: 15px;
+  }
+
+  .navLinkButton:active,
+  .navLinkButton:focus,
+  .navLinkButton:hover {
+    font-size: 20px;
+    font-weight: bold !important;
+  }
+}
+
+.colorTitleImportant {
+  color: #fff !important;
+}
+
+/* 
+
+    margin: auto 0 0 0;
+*/

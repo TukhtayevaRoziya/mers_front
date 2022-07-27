@@ -1,0 +1,17 @@
+.body {
+  width: 100%;
+}
+
+@media all and (max-width: 992px) {
+  .body {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .benefit__container {
+    margin: 2rem 10px !important;
+    max-width: 95%;
+    width: 95%;
+    justify-content: center;
+  }
+}

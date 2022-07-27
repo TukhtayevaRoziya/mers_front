@@ -1,0 +1,22 @@
+.mostPopular {
+  background: #282828;
+  
+  .mostPopularRight {    
+    .prevStyle {
+      background-color: #282828;
+      border: 1px solid #fff;
+      padding: 4px 7px 6px 7px;
+      margin-right: 10px;
+    }
+    
+    .nextStyle {
+      background-color: #282828;
+      border: 1px solid #fff;
+      padding: 4px 7px 6px 7px;
+    }
+  }
+}
+
+.featuredParent {
+  background: #222222;
+}

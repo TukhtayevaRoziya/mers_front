@@ -1,0 +1,40 @@
+.Simple2{
+    .container{
+        padding: 30px 0;
+        .wrapper{
+            @media all and (max-width:992px){
+                display: block;
+
+                .left_box{
+                    margin-left: 10px !important;
+                }
+                .right_box{
+                    margin-left: 10px !important;
+                }
+            }
+            display: grid;
+            grid-template-columns: 35% 65%;
+            .left_box{
+                img{
+                    width: 100%;
+                }
+                h1{
+                    margin: 20px 0;
+                }
+            }
+            .right_box{
+                margin-left: 40px;
+                img{
+                    width: 100%;
+                }
+                h1{
+                    margin-bottom: 20px; 
+                }
+                p{
+                    margin: 40px 0;
+                    letter-spacing: 0.01em;
+                }
+            }
+        }
+    }
+}

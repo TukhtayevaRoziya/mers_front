@@ -1,0 +1,32 @@
+.date {
+  color: #868686;
+}
+
+.parent { 
+  .imgParent {
+    img {
+      width: 100%;
+    }
+  }   
+}
+
+
+// Link styling!!!
+
+.link, .link:hover, .link:active, .link:focus, .link:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link img {
+  transition-duration: 500ms;
+  transition-delay: 10ms;
+}
+
+.link:hover img {
+  transform: scale(1.02);
+}

@@ -1,0 +1,125 @@
+.font {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+
+.search {
+  cursor: pointer;
+}
+
+.searchInput {
+  input {
+    border-radius: 0;
+    border: 1px solid #fff;
+    padding: 0 3px 0 5px;
+  }
+
+  input:active,
+  input:focus {
+    outline: 0;
+  }
+
+  .searchButton {
+    background-color: #212529;
+    color: #fff;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1170px) {
+  .searchInputOnMedia {
+    width: 150px;
+  }
+}
+
+.dropdownLang {
+  border-radius: 0;
+}
+
+.menuUl {
+  left: -90px !important;
+  background-color: #212529;
+  border: 0;
+  outline: 0;
+  border-radius: 0;
+
+  li {
+    a {
+      color: #fff;
+    }
+
+    a:active,
+    a:focus {
+      background-color: #39546c;
+    }
+  }
+}
+
+.liLink {
+  transition: 0;
+  position: relative;
+  .activeNavLink {
+    padding-bottom: 7px;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    font-weight: bold;
+    &::after {
+      display: none;
+    }
+  }
+
+  .nonActiveLink {
+    color: #fff;
+  }
+  a {
+    &:hover {
+      &::after {
+        width: 100%;
+      }
+    }
+    &::after {
+      content: "";
+      display: block;
+      width: 0%;
+      margin-top: 7px;
+      height: 2px;
+      background-color: #fff;
+      transition: 0.2s ease-in-out;
+      color: #fff;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .activeNavLink {
+    border-bottom: 0 !important;
+  }
+}
+
+.menuBurger {
+  border: 2px solid #fff;
+  box-shadow: none !important;
+
+  .menuBurgerIcon {
+    span {
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+      height: 5px;
+      width: 8px;
+      position: relative;
+      bottom: 9px;
+      right: 5px;
+    }
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .logoMenuBurgetOnSmall {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menuBurger {
+    margin-top: 10px;
+  }
+}

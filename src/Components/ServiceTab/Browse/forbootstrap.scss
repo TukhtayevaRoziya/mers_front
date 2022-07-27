@@ -1,0 +1,28 @@
+.active {
+  color: #00c2ff;
+}
+
+.browse-link {
+  text-decoration: none !important;
+}
+
+.imageWrapper {
+  position: relative;
+}
+@media all and (max-width: 992px) {
+  .MuiBox-root-2 {
+    display: block !important;
+  }
+}
+.imageWrapper p {
+  position: absolute;
+  z-index: 9999;
+  bottom: 0;
+}
+.MuiTabs-vertical {
+  @media all and (max-width: 992px) {
+    display: block;
+    width: 100% !important;
+  }
+  width: 40%;
+}

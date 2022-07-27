@@ -1,0 +1,18 @@
+.style {
+  padding: 15px 20px;
+  margin-left: 12px;
+  // background-color: #39546c;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  border: 1px solid #fff;
+  transition: 0.5s;
+  background: linear-gradient(45deg, #213c64, #0c66ce) center/0% 100% no-repeat;
+}
+
+.style:hover {
+  background-size: 100% 100%;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}

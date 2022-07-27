@@ -1,0 +1,28 @@
+.slide {
+  border: 2px solid #062d53;
+  background: rgb(12, 18, 24);
+  background: linear-gradient(
+    90deg,
+    rgba(12, 18, 24, 1) 0%,
+    rgba(4, 37, 81, 1) 100%
+  );
+}
+
+.image {
+  @media all and (max-width: 992px) {
+    height: 270px !important;
+  }
+  width: 100%;
+  object-fit: "contain";
+  height: 300px;
+  filter: sepia(90%) hue-rotate(130deg) saturate(400%);
+}
+
+.author {
+  text-transform: capitalize;
+}
+
+.job {
+  color: #6a7d8e;
+  text-transform: uppercase;
+}

@@ -1,0 +1,78 @@
+.alink,
+.alink:focus,
+.alink:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+.alink:hover {
+  padding-left: 5px;
+  color: rgb(221, 51, 51);
+  transition: 0.3s ease;
+  // font-weight: bold;
+  // text-decoration: underline;
+}
+.socialLink,
+.socialLink:focus,
+.socialLink:visited {
+  .footer_anime {
+    p {
+      margin: 0;
+    }
+  }
+  .socialLink,
+  .socialLink:focus,
+  .socialLink:visited {
+    text-decoration: none;
+    padding: 0 5px;
+    color: #fff;
+    transition-duration: 200ms;
+    font-size: 30px;
+  }
+  .alink {
+    margin: 0;
+    padding: 1em 0;
+  }
+  .socialLink {
+    color: #fff;
+    font-size: 25px;
+  }
+  .socialLinkY:hover {
+    margin-top: -5px;
+    color: #ff0000;
+  }
+
+  .socialLinkTelegram:hover {
+    margin-top: -5px;
+    color: #00e0fd;
+  }
+
+  .socialLinkInstagram:hover {
+    color: #d42836;
+    margin-top: -5px;
+  }
+  .socialLinkFacebook:hover {
+    color: #1668ff;
+    margin-top: -5px;
+  }
+
+  .footer__body {
+    @media all and (max-width: 992.9px) {
+      padding: 0 20px;
+    }
+  }
+
+  @media all and (max-width: 992.9px) {
+    .footer__block {
+      margin: 1rem 0;
+    }
+  }
+
+  .footer__smallBlock {
+    width: 50%;
+  }
+
+  .footer_endText {
+    margin: 0 !important;
+  }
+}

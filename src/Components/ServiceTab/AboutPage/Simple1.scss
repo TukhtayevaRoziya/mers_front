@@ -1,0 +1,42 @@
+.simple_1 {
+  @media all and (max-width: 992px) {
+    .wrapper {
+      display: block !important;
+    }
+    .right_box {
+      margin-top: 20px;
+      margin-left: 10px !important;
+    }
+  }
+  margin: 50px 0;
+  .bContainer {
+    padding: 0px;
+    .wrapper {
+      cursor: pointer;
+      &:hover {
+        .left_box {
+          img {
+            transform: scale(1.05);
+          }
+        }
+      }
+      display: grid;
+      grid-template-columns: 40% 60%;
+      align-items: center;
+      .left_box {
+        img {
+          transition: 0.4s ease;
+          width: 100%;
+        }
+      }
+      .right_box {
+        margin-left: 50px;
+        h1 {
+          font-size: 45px;
+          line-height: 36px;
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+}

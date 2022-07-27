@@ -1,0 +1,52 @@
+.ab_header {
+  background: url("../../../assets/About/head.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  .wrapper {
+    padding: 0;
+    margin: auto 0;
+    height: 90vh;
+    // background: linear-gradient();
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    .intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      h1 {
+        font-family: Calibri;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 56px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+      p {
+        text-align: center;
+        font-size: 24px;
+        color: #00c2ff;
+        line-height: 24px;
+      }
+      a {
+        line-height: 24px;
+        text-align: center;
+        color: #ffffff;
+        text-decoration: none;
+      }
+    }
+  }
+}
+.contact_info_icons {
+  &:hover {
+    img {
+      transform: rotate(360deg);
+    }
+  }
+  img {
+    transition: 0.4s ease;
+  }
+}

@@ -1,0 +1,38 @@
+.SecondC {
+  .bContainer {
+    padding: 50px 0;
+    .wrapper {
+      @media all and (max-width: 992px) {
+        display: block;
+        .swiper {
+          width: 260px !important;
+          height: 260px !important;
+        }
+        .swiper-wrapper {
+          border-radius: 18px;
+        }
+      }
+      display: grid;
+      grid-template-columns: 40% 60%;
+      align-items: center;
+      .left_box {
+        h1 {
+          font-size: 40px;
+          margin-bottom: 20px;
+          margin: 20px 0;
+        }
+      }
+      .right_box {
+        .slick-slide img {
+          width: 100%;
+        }
+        .slick-slider {
+          @media all and (max-width: 992px) {
+            margin: 0 20px;
+          }
+          margin: 0 50px;
+        }
+      }
+    }
+  }
+}
